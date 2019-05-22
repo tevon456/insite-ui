@@ -18,7 +18,7 @@ class Button extends React.Component {
           }
         `}
       >
-        New Message
+        {this.props.children}
       </button>
     )
   }
