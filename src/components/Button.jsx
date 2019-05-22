@@ -1,8 +1,26 @@
-import React from "react";
+import React from 'react'
+
+import { primary, textForeground } from '../colours'
 
 class Button extends React.Component {
   render() {
-    return <button>Click Me</button>;
+    return (
+      <button
+        css={`
+          padding: 10px;
+          color: ${textForeground};
+          border-radius: 3px;
+          border: none;
+          background: ${primary};
+          &:focus {
+            border: none;
+            outline: none;
+          }
+        `}
+      >
+        New Message
+      </button>
+    )
   }
 }
 

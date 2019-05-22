@@ -1,5 +1,5 @@
 Button component example:
 
 ```js
-<Button >Push Me</Button>
+<Button>Push Me</Button>
 ```
