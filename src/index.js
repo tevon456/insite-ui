@@ -1,3 +1,4 @@
-import Button from './components/Button.jsx'
+import Button from './components/Button'
+import Sidebar form './components/Sidebar'
 
-export { Button }
+export { Button, Sidebar }
